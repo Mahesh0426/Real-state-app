@@ -20,7 +20,7 @@ const About = () => {
         About <span className="text-blue-600">RealmX</span>
       </h2>
       <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
-      <p className=" text-gray-500  max-w-80 text-center  mb-8 ">
+      <p className=" text-gray-500  max-w-80 text-center">
         At RealmX, we believe that finding your dream home should be an exciting
         and seamless journey.
       </p>
@@ -54,14 +54,15 @@ const About = () => {
           <h3 className="text-2xl font-semibold text-gray-900 mb-6 mt-4">
             Our Commitment to Excellence
           </h3>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 mb-6">
             With a legacy spanning over a decade, RealmX has consistently
             delivered unparalleled real estate solutions. Our team of experts is
             dedicated to turning your property dreams into reality, ensuring
             each project reflects our commitment to quality, innovation, and
             customer satisfaction.
           </p>
-          <div className="grid grid-cols-2 gap-8">
+
+          <div className="grid grid-cols-2 gap-8 mt-2">
             {stats.map((stat, index) => (
               <motion.div
                 key={index}
