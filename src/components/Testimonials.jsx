@@ -1,9 +1,14 @@
 import React from "react";
 import { assets, testimonialsData } from "../../assets/assets";
+import { motion } from "framer-motion";
 
 const Testimonials = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 2 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
       id="Testimionials"
     >
@@ -28,7 +33,7 @@ const Testimonials = () => {
             <h2 className="text-xl text-gray-700 font-medium">
               {testimionial.name}
             </h2>
-            <p clasName="text-gray-500 mb-4 text-sm">{testimionial.title}</p>
+            <p className="text-gray-500 mb-4 text-sm">{testimionial.title}</p>
             <div className="flex justify-center gap-1 text-red-500 mb-4">
               {Array.from({ length: testimionial.rating }, (item, index) => (
                 <img key={index} src={assets.star_icon} alt="star " />
@@ -38,7 +43,7 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

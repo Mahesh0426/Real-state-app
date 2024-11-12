@@ -16,6 +16,7 @@ import project_img_6 from "./project_img_6.jpg";
 import profile_img_7 from "./profile_img_7.png";
 import profile_img_8 from "./profile_img_8.png";
 import profile_img_9 from "./profile_img_9.jpg";
+import header from "./header.jpg";
 
 export const assets = {
   logo,
@@ -31,6 +32,7 @@ export const assets = {
   project_img_4,
   left_arrow,
   right_arrow,
+  header,
 };
 
 export const projectsData = [
