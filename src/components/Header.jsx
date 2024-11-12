@@ -7,7 +7,7 @@ const Header = () => {
     <div
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden filter brightness-85"
       style={{
-        backgroundImage: "url('/assets/header.jpg')",
+        backgroundImage: "url('/header.jpg')",
       }}
       id="Header"
     >

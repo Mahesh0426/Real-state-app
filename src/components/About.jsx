@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { assets } from "../../assets/assets";
+import { assets } from "../../public/assets/assets";
 import { Home, Users, Building, MapPin } from "lucide-react";
 
 const About = () => {
