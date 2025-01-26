@@ -18,7 +18,7 @@
 Welcome to the Real Estate App! This application offers a seamless platform for users to explore, buy, and rent properties. Built with a modern tech stack, it ensures a smooth and engaging user experience, combining robust functionality with sleek aesthetics.
 
 
-##b ✨ Features
+## ✨ Features
 - 🏠 **Property Listings:** Browse a wide range of properties for sale or rent with detailed descriptions, images, and pricing.
 - 🔍 **Advanced Search & Filters:** Easily find your dream property using category, price range, location, and property type filters.
 - 📞 **Contact Us Form:** Get in touch effortlessly using the W3Form-powered contact system.
